@@ -1,0 +1,62 @@
+.home {
+	padding: 20px 0;
+	font-family: 'Typonine Sans Pro Light';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: $copy;
+
+	h1, h2, h3, h4, h5, h6 {
+		display: block;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	h1, h3 {
+		font-family: 'Typonine Sans Monospace Text';
+		font-weight: 600;
+		font-style: normal;
+		font-size: 18px;
+		text-transform: uppercase;
+	}
+	h4, h5 {
+		font-family: 'Typonine Sans Pro Regular';
+		font-weight: 600;
+		font-style: normal;
+	}
+	h3, h4, h5 {
+		margin: 16px 0;
+	}
+	h1 {
+		margin: 20px 0;
+		color: $orange;
+	}
+	h3 {
+		color: $red;
+	}
+	h4 {
+		font-size: 17px;
+		color: $brown;
+		text-transform: uppercase;
+	}
+	h5 {
+		font-size: 16px;
+		color: $red;
+	}
+	
+	header {
+		img {
+			width: 200px;
+			height: auto;
+		}
+	}
+	.background {
+		&.light-blue {
+			background-color: $light-blue;
+		}
+	}
+	.page-header {
+		
+
+	}
+}

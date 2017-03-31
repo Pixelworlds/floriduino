@@ -1,4 +1,4 @@
-.home {
+.home, .boards {
 	padding: 20px 0;
 	font-family: 'Typonine Sans Pro Light';
     font-weight: 400;
@@ -55,8 +55,31 @@
 			background-color: $light-blue;
 		}
 	}
-	.page-header {
-		
+}
 
+.boards {
+	table {
+		width: 100%;
+		margin-top: 40px;
+
+		thead {
+			th {
+				padding-bottom: 10px;
+			}
+		}
+		tbody {
+			tr:nth-child(odd) {
+				background-color: #EEE;
+			}
+			tr, td:first-child {
+				min-width: 160px;
+			}
+			tr, td:nth-child(2) {
+				min-width: 400px;
+			}
+		}
+		th, td {
+			padding: 2px 10px;
+		}
 	}
 }
